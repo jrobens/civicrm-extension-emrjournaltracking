@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<extension key="net.interlated.emrjournaltracking" type="module">
+  <downloadUrl>http://dev.ecolsoc.org.au/net.interlated.emrjournaltracking.zip</downloadUrl>
+  <file>emrjournaltracking</file>
+  <name>EMR Journal Tracking</name>
+  <description>EMR Journal Tracking</description>
+  <license>AGPL</license>
+  <maintainer>
+    <author>John Robens</author>
+    <email>jrobens@interlated.com.au</email>
+  </maintainer>
+  <releaseDate>2013-09-05</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.1</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CJT/EmrJournaltracking</namespace>
+  </civix>
+</extension>
+    

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<menu>
+    <item>
+        <path>civicrm/emrjournaltracking</path>
+        <page_callback>CJT_Page_EmrJournaltracking_JournalControls</page_callback>
+        <title>Journal Tracking</title>
+        <access_arguments>access CiviCRM</access_arguments>
+    </item>
+    <item>
+        <path>civicrm/emrjournaltracking/export</path>
+        <page_callback>CJT_Form_EmrJournaltracking_Export</page_callback>
+        <page_arguments>mode=1</page_arguments>
+        <access_arguments>access CiviCRM</access_arguments>
+    </item>
+    <item>
+        <path>civicrm/emrjournaltracking/export-catchup</path>
+        <page_callback>CJT_Form_EmrJournaltracking_ExportCatchup</page_callback>
+        <page_arguments>mode=1</page_arguments>
+        <access_arguments>access CiviCRM</access_arguments>
+    </item>
+      <item>
+     <path>civicrm/emrjournaltracking/view</path>
+     <page_arguments>mode=1</page_arguments>
+     <page_callback>CJT_Page_EmrJournaltracking_View</page_callback>
+     <access_arguments>access CiviCRM</access_arguments>
+  </item>  
+    
+</menu>
